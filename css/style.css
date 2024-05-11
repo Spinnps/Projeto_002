@@ -1,0 +1,100 @@
+ body { 
+    margin: 40px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(86, 86, 143); 
+    background-image: url(../img/purple-gaming-4jmwd09rukvgbuzp.jpg); 
+    background-size: fixed;
+}
+
+
+
+nav a {
+    text-decoration: none;
+    margin-left: 50px;
+    color: white;
+    padding: 20px;
+}
+
+.cabecalho {
+    text-align: right;
+}
+
+
+.elementor-button {
+    margin-right: 20px;
+    height: auto;
+    border-radius: 40px;
+    padding: 10px 30px;
+    border-width: 5px;
+}
+
+.elementor-button {
+        background: linear-gradient(270deg, #1279f2, #670fe1, #02d5f7);
+        background-size: 600% 600%;
+    
+        -webkit-animation: AnimationName 30s ease infinite;
+        -moz-animation: AnimationName 30s ease infinite;
+        animation: AnimationName 30s ease infinite;
+    }
+    
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+
+
+
+.principal {
+    position: absolute;
+    top: 250px;
+    margin-left: 20px;
+}
+
+.principal a {
+    text-decoration: none;
+    color: white;
+}
+
+#titulo {
+    font-size: 50px;
+    color: white;
+}
+
+#texto1 {
+    color: white;
+}
+
+#buttom1 {
+    border: 0.5px solid;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#buttom2 {
+    position: relative;
+    top: 20px;
+    left: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px white solid;
+    border-radius: 20px;
+} 
